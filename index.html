@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teema Solution — Software House Thailand</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor">
+  <div class="cursor__dot" id="cDot"></div>
+  <div class="cursor__ring" id="cRing"></div>
+</div>
+
+<!-- ══ NAV ══ -->
+<nav class="nav" id="nav">
+  <div class="nav__logo">
+    <img src="assets/logo.png" class="nav__logo-img" alt="Teema Solution" onerror="this.style.display='none'"/>
+    <span class="nav__logo-text">TEEMA <span>SOLUTION</span></span>
+  </div>
+  <ul class="nav__links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav__cta">
+    <a href="contact.html" class="btn btn--ghost-w btn--sm">Let's talk →</a>
+  </div>
+  <div class="nav__hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ══ HERO — Dark, Full Screen ══ -->
+<section class="hero" id="hero">
+  <div class="hero__grid"></div>
+  <div class="hero__orb"></div>
+  <div class="hero__orb hero__orb--2"></div>
+
+  <div class="hero__topbar">
+    <div class="hero__badge">Software House · Thailand</div>
+    <div class="hero__scroll">
+      Scroll
+      <div class="hero__scroll-line"></div>
+    </div>
+  </div>
+
+  <h1 class="hero__title">
+    <span class="line-1">
+      <span class="word"><span class="word-inner">ที่มา</span></span>
+    </span><br/>
+    <span class="line-2">
+      <span class="word"><span class="word-inner accent">ของ Solution</span></span>
+    </span><br/>
+    <span class="line-3">
+      <span class="word"><span class="word-inner">ที่ดีที่สุด</span></span>
+    </span>
+  </h1>
+
+  <div class="hero__bottom">
+    <p class="hero__desc">
+      Teema Solution คือ <strong>Software House</strong> ที่พร้อมส่งมอบ
+      Digital Solution ครบวงจร ตั้งแต่ Website, Mobile App
+      ไปจนถึง SEO & Web Security
+    </p>
+    <div class="hero__stats">
+      <div>
+        <div class="hero__stat-num">50<span>+</span></div>
+        <div class="hero__stat-label">Projects</div>
+      </div>
+      <div>
+        <div class="hero__stat-num">10<span>+</span></div>
+        <div class="hero__stat-label">Years</div>
+      </div>
+      <div>
+        <div class="hero__stat-num">30<span>+</span></div>
+        <div class="hero__stat-label">Clients</div>
+      </div>
+    </div>
+    <div class="hero__actions">
+      <a href="portfolio.html" class="btn btn--primary btn--lg">View Work</a>
+      <a href="contact.html" class="btn btn--ghost-w btn--lg">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MARQUEE ══ -->
+<div class="marquee">
+  <div class="marquee__track">
+    <div class="marquee__item">Website Development <span class="marquee__dot"></span></div>
+    <div class="marquee__item">Mobile Application <span class="marquee__dot"></span></div>
+    <div class="marquee__item">Web Security <span class="marquee__dot"></span></div>
+    <div class="marquee__item">UI/UX Design <span class="marquee__dot"></span></div>
+    <div class="marquee__item">SEO & SEM <span class="marquee__dot"></span></div>
+    <div class="marquee__item">LINE OA <span class="marquee__dot"></span></div>
+    <div class="marquee__item">Cloud Infrastructure <span class="marquee__dot"></span></div>
+    <div class="marquee__item">Website Development <span class="marquee__dot"></span></div>
+    <div class="marquee__item">Mobile Application <span class="marquee__dot"></span></div>
+    <div class="marquee__item">Web Security <span class="marquee__dot"></span></div>
+    <div class="marquee__item">UI/UX Design <span class="marquee__dot"></span></div>
+    <div class="marquee__item">SEO & SEM <span class="marquee__dot"></span></div>
+    <div class="marquee__item">LINE OA <span class="marquee__dot"></span></div>
+    <div class="marquee__item">Cloud Infrastructure <span class="marquee__dot"></span></div>
+  </div>
+</div>
+
+<!-- ══ CLIENTS — White Section ══ -->
+<section class="section-white" style="padding:64px 0;">
+  <div class="container">
+    <p style="text-align:center;font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--td);margin-bottom:44px;">
+      Trusted by leading organizations
+    </p>
+    <div style="display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:52px;">
+      <img src="assets/clients/betagro.png"     alt="Betagro"      style="height:26px;opacity:.3;filter:grayscale(1);transition:.3s;" onmouseover="this.style.opacity='.7';this.style.filter='grayscale(0)'" onmouseout="this.style.opacity='.3';this.style.filter='grayscale(1)'"/>
+      <img src="assets/clients/mitsubishi.png"  alt="Mitsubishi"   style="height:26px;opacity:.3;filter:grayscale(1);transition:.3s;" onmouseover="this.style.opacity='.7';this.style.filter='grayscale(0)'" onmouseout="this.style.opacity='.3';this.style.filter='grayscale(1)'"/>
+      <img src="assets/clients/baac.png"        alt="BAAC"         style="height:26px;opacity:.3;filter:grayscale(1);transition:.3s;" onmouseover="this.style.opacity='.7';this.style.filter='grayscale(0)'" onmouseout="this.style.opacity='.3';this.style.filter='grayscale(1)'"/>
+      <img src="assets/clients/toyota.png"      alt="Toyota"       style="height:26px;opacity:.3;filter:grayscale(1);transition:.3s;" onmouseover="this.style.opacity='.7';this.style.filter='grayscale(0)'" onmouseout="this.style.opacity='.3';this.style.filter='grayscale(1)'"/>
+      <img src="assets/clients/pttgc.png"       alt="PTT GC"       style="height:26px;opacity:.3;filter:grayscale(1);transition:.3s;" onmouseover="this.style.opacity='.7';this.style.filter='grayscale(0)'" onmouseout="this.style.opacity='.3';this.style.filter='grayscale(1)'"/>
+      <img src="assets/clients/scb.png"         alt="SCB"          style="height:26px;opacity:.3;filter:grayscale(1);transition:.3s;" onmouseover="this.style.opacity='.7';this.style.filter='grayscale(0)'" onmouseout="this.style.opacity='.3';this.style.filter='grayscale(1)'"/>
+      <img src="assets/clients/novonordisk.png" alt="Novo Nordisk" style="height:26px;opacity:.3;filter:grayscale(1);transition:.3s;" onmouseover="this.style.opacity='.7';this.style.filter='grayscale(0)'" onmouseout="this.style.opacity='.3';this.style.filter='grayscale(1)'"/>
+      <img src="assets/clients/asiacem.png"     alt="Asia Cement"  style="height:26px;opacity:.3;filter:grayscale(1);transition:.3s;" onmouseover="this.style.opacity='.7';this.style.filter='grayscale(0)'" onmouseout="this.style.opacity='.3';this.style.filter='grayscale(1)'"/>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES — White Section, Row List ══ -->
+<section class="section-off" id="services">
+  <div class="container">
+    <div class="services__header">
+      <div class="reveal">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">Our Services</h2>
+      </div>
+      <a href="services.html" class="btn btn--ghost reveal">ดู Services ทั้งหมด →</a>
+    </div>
+    <div class="services__list">
+      <div class="service-row reveal">
+        <span class="service-row__num">01</span>
+        <span class="service-row__title">Website Development & Security</span>
+        <div class="service-row__tags">
+          <span class="tag">React</span><span class="tag">Next.js</span>
+          <span class="tag">Node.js</span><span class="tag">PHP</span>
+        </div>
+      </div>
+      <div class="service-row reveal d1">
+        <span class="service-row__num">02</span>
+        <span class="service-row__title">Mobile Application & LINE OA</span>
+        <div class="service-row__tags">
+          <span class="tag">Swift</span><span class="tag">Kotlin</span>
+          <span class="tag">LINE LIFF</span>
+        </div>
+      </div>
+      <div class="service-row reveal d2">
+        <span class="service-row__num">03</span>
+        <span class="service-row__title">UI/UX Design Direction</span>
+        <div class="service-row__tags">
+          <span class="tag">Figma</span><span class="tag">Prototype</span>
+          <span class="tag">Design System</span>
+        </div>
+      </div>
+      <div class="service-row reveal d3">
+        <span class="service-row__num">04</span>
+        <span class="service-row__title">SEO, SEM & Ads Optimization</span>
+        <div class="service-row__tags">
+          <span class="tag">Google Ads</span><span class="tag">Technical SEO</span>
+        </div>
+      </div>
+      <div class="service-row reveal d4">
+        <span class="service-row__num">05</span>
+        <span class="service-row__title">Cloud & Infrastructure</span>
+        <div class="service-row__tags">
+          <span class="tag">AWS</span><span class="tag">Azure</span>
+          <span class="tag">DigitalOcean</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PORTFOLIO — White, Bleed Grid ══ -->
+<section class="section-white" style="padding-top:0;">
+  <div class="container" style="margin-bottom:40px;">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;" class="reveal">
+      <div>
+        <span class="section-label">Selected Work</span>
+        <h2 class="section-title">Our Portfolio</h2>
+      </div>
+      <a href="portfolio.html" class="btn btn--ghost">ดูทั้งหมด →</a>
+    </div>
+  </div>
+  <!-- Full-width bleed grid (no container) -->
+  <div class="portfolio-grid" style="padding:0 3px;">
+    <div class="pcard pcard--w8 reveal">
+      <img src="assets/portfolio/mitsubishi.jpg" alt="Mitsubishi"/>
+      <div class="pcard__overlay">
+        <div class="pcard__client">Mitsubishi Electric</div>
+        <div class="pcard__title">Product Information Website &amp; Interactive Air Quality</div>
+        <span class="pcard__type">Website Development</span>
+      </div>
+      <div class="pcard__arrow">↗</div>
+    </div>
+    <div class="pcard pcard--w4 pcard--tall reveal d1">
+      <img src="assets/portfolio/stellaplus.jpg" alt="Stella Plus"/>
+      <div class="pcard__overlay">
+        <div class="pcard__client">Stella Plus (Startup)</div>
+        <div class="pcard__title">eSarabun & eHR SaaS System</div>
+        <span class="pcard__type">Web App</span>
+      </div>
+      <div class="pcard__arrow">↗</div>
+    </div>
+    <div class="pcard pcard--w4 reveal d2">
+      <img src="assets/portfolio/asiacem.jpg" alt="Asia Cement"/>
+      <div class="pcard__overlay">
+        <div class="pcard__client">Asia Cement</div>
+        <div class="pcard__title">RMC e-Commerce B2B & B2C</div>
+        <span class="pcard__type">Web App + Mobile</span>
+      </div>
+      <div class="pcard__arrow">↗</div>
+    </div>
+    <div class="pcard pcard--w4 reveal d3">
+      <img src="assets/portfolio/toyota.jpg" alt="Toyota"/>
+      <div class="pcard__overlay">
+        <div class="pcard__client">Toyota Thailand</div>
+        <div class="pcard__title">Road Safety LINE Web App</div>
+        <span class="pcard__type">LINE OA</span>
+      </div>
+      <div class="pcard__arrow">↗</div>
+    </div>
+    <div class="pcard pcard--w6 reveal">
+      <img src="assets/portfolio/baac.jpg" alt="BAAC"/>
+      <div class="pcard__overlay">
+        <div class="pcard__client">BAAC (ธ.ก.ส.)</div>
+        <div class="pcard__title">Product Information Website & Microsite</div>
+        <span class="pcard__type">Website Design</span>
+      </div>
+      <div class="pcard__arrow">↗</div>
+    </div>
+    <div class="pcard pcard--w6 reveal d1">
+      <img src="assets/portfolio/sangthai.jpg" alt="Sangthai"/>
+      <div class="pcard__overlay">
+        <div class="pcard__client">Sangthai Metalsheet</div>
+        <div class="pcard__title">SEO Strategy — +348% Page Views</div>
+        <span class="pcard__type">SEO & Content</span>
+      </div>
+      <div class="pcard__arrow">↗</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ STATS — Navy Section ══ -->
+<section class="section-navy-bg">
+  <div class="container">
+    <div class="tc reveal">
+      <span class="section-label section-label--w">Track Record</span>
+      <h2 class="section-title section-title--w" style="margin-top:8px;">
+        ตัวเลขที่พิสูจน์<br/>ผลงานจริง
+      </h2>
+    </div>
+    <div class="stats-wrap reveal d1">
+      <div class="stat-box">
+        <div class="stat-box__num">50<span>+</span></div>
+        <div class="stat-box__label">โปรเจกต์ที่ส่งมอบสำเร็จ</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-box__num">10<span>+</span></div>
+        <div class="stat-box__label">ปีประสบการณ์</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-box__num">30<span>+</span></div>
+        <div class="stat-box__label">องค์กรชั้นนำที่ไว้วางใจ</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-box__num">348<span>%</span></div>
+        <div class="stat-box__label">SEO Page View Growth</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA — Navy BG, Big Type ══ -->
+<section class="cta">
+  <div class="cta__orb"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <p class="cta__pretitle">Ready to start?</p>
+    <h2 class="cta__title reveal">
+      มาสร้าง<br/>
+      <span>Solution</span><br/>
+      ด้วยกัน
+    </h2>
+    <div class="cta__actions reveal d1">
+      <a href="contact.html" class="btn btn--purple btn--lg">ติดต่อเรา →</a>
+      <a href="portfolio.html" class="btn btn--ghost-w btn--lg">ดูผลงาน</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">TEEMA <span>SOLUTION</span></div>
+        <p class="footer__desc">ที่มาของ Solution ที่ดีที่สุด<br/>Software House & Digital Solutions Thailand</p>
+      </div>
+      <div>
+        <p class="footer__col-title">Services</p>
+        <ul class="footer__links">
+          <li><a href="services.html">Website Development</a></li>
+          <li><a href="services.html">Web Security</a></li>
+          <li><a href="services.html">Mobile Application</a></li>
+          <li><a href="services.html">Design Direction</a></li>
+          <li><a href="services.html">SEO & SEM</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Company</p>
+        <ul class="footer__links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Contact</p>
+        <ul class="footer__links">
+          <li><a href="mailto:hello@teemasolution.com">hello@teemasolution.com</a></li>
+          <li><a href="#">02-xxx-xxxx</a></li>
+          <li><a href="#">LINE: @teemasolution</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2025 Teema Solution Co., Ltd. All rights reserved.</p>
+      <div class="footer__socials">
+        <a href="#" class="footer__social">LinkedIn</a>
+        <a href="#" class="footer__social">Facebook</a>
+        <a href="#" class="footer__social">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ── Custom Cursor ── */
+const dot  = document.getElementById('cDot');
+const ring = document.getElementById('cRing');
+const cur  = document.getElementById('cursor');
+let mx=0,my=0,rx=0,ry=0;
+
+window.addEventListener('mousemove', e => {
+  mx=e.clientX; my=e.clientY;
+  dot.style.left=mx+'px'; dot.style.top=my+'px';
+  // Detect light section under cursor
+  const el = document.elementFromPoint(mx,my);
+  const inLight = el && el.closest('.section-white,.section-off');
+  cur.classList.toggle('cursor--light', !!inLight);
+});
+document.querySelectorAll('a,button').forEach(el=>{
+  el.addEventListener('mouseenter',()=>cur.classList.add('cursor--hover'));
+  el.addEventListener('mouseleave',()=>cur.classList.remove('cursor--hover'));
+});
+(function animRing(){
+  rx+=(mx-rx)*.1; ry+=(my-ry)*.1;
+  ring.style.left=rx+'px'; ring.style.top=ry+'px';
+  requestAnimationFrame(animRing);
+})();
+
+/* ── Nav scroll ── */
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', ()=>{
+  const y = window.scrollY;
+  nav.classList.toggle('scrolled', y>60);
+  // Switch to light nav when over white sections
+  const heroH = document.getElementById('hero').offsetHeight;
+  nav.classList.toggle('light', y > heroH - 20);
+});
+
+/* ── Hamburger ── */
+document.getElementById('hamburger').addEventListener('click',()=>{
+  const l=document.querySelector('.nav__links');
+  l.style.display=l.style.display==='flex'?'none':'flex';
+});
+
+/* ── Scroll Reveal ── */
+const obs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
+},{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
